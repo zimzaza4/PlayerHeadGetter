@@ -1,0 +1,12 @@
+name: PlayerHeadGetter
+version: '${project.version}'
+main: me.zimzaza4.playerheadgetter.PlayerHeadGetter
+api-version: 1.16
+commands:
+  skullgetter:
+    aliases:
+      - headgetter
+    permission: "skull.get"
+    test:
+    - name: texture
+      abc: ""
